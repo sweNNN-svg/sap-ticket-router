@@ -1,0 +1,34 @@
+ticket_text,module
+FB01 üzerinde fatura girişi yapılamıyor,FICO
+FBL3N raporunda bakiye uyuşmazlığı var,FICO
+Maliyet merkezi kapatma işlemi hata veriyor,FICO
+Bütçe aşımı uyarısı alınıyor,FICO
+MIGO ile mal girişi yapılamıyor,MM
+Satın alma siparişi ME21N'de onaylanmıyor,MM
+Stok hareketi sırasında sistem donuyor,MM
+MMBE'de stok görünmüyor,MM
+VA01 ile satış siparişi açılamıyor,SD
+Fatura kesme işleminde VF01 hata veriyor,SD
+Müşteri teslimatı VL01N'de tamamlanamıyor,SD
+Fiyatlandırma koşulu güncellenemiyor,SD
+Personel özlük bilgileri PA30'da güncellenemiyor,HR
+Bordro hesaplama hatası alınıyor,HR
+İzin talebi onay sürecinde takılı kaldı,HR
+Üretim emri CO01'de açılamıyor,PP
+MRP çalıştırıldığında hata veriyor,PP
+Malzeme listesi CS01'de güncellenemiyor,PP
+Bakım bildirimi IW21'de oluşturulamıyor,PM
+Ekipman arıza kaydı alınamıyor,PM
+Planlı bakım iş emri açılamıyor,PM
+Kalite bildirimi QM01'de kapatılamıyor,QM
+Denetim partisi oluşturma hatası,QM
+Muayene sonucu kaydedilemiyor,QM
+SM50'de iş süreci sonlandırılamıyor,Basis
+Taşıma isteği STMS'de onaylanmıyor,Basis
+"Sistem performansı düşük, yavaşlık var",Basis
+Kullanıcı yetkisi tanımlanamıyor,Authorization
+PFCG'de rol ataması yapılamıyor,Authorization
+SU01'de kullanıcı kilitli görünüyor,Authorization
+Workflow onay adımında takılı kaldı,E-Solutions
+E-posta bildirimi gönderilmiyor,E-Solutions
+Portal üzerinden form doldurulurken hata alınıyor,E-Solutions

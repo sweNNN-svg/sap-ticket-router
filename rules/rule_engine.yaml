@@ -1,0 +1,21 @@
+overrides:
+    - condition: "tcode.startswith('ZI')"
+      assign_to: MM
+      reason: "FI danışmanının yönlendirmesi"
+
+    - condition: "title.lower().find('yetki') != -1"
+      assign_to: Authorization
+      reason: "Erişim işlemleri yetkiyle ilgili"
+
+    - condition: "title.lower().find('workflow') != -1"
+      assign_to: E-Solutions
+      reason: "Workflow işlemleri E-Solutions tarafından yürütülür"
+
+    - condition: "'#SanctionTrace' in title"
+      assign_to: SD
+      reason: "#SanctionTrace görevi SD modülüne aittir"
+
+fallback_behavior:
+    use_ml: true
+    ml_confidence_threshold: 0.6
+    low_confidence_message: "Confidence too low — human verification needed."

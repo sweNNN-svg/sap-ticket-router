@@ -16,7 +16,7 @@ Layer 3: LLM Fallback (Claude Haiku) → returns module + reasoning
 {"module": "MM", "confidence": "high", "reason": "..."}
 ```
 
-![Demo](https://raw.githubusercontent.com/sweNNN-svg/sap-ticket-router/main/docs/demo.svg)
+![Demo](https://raw.githubusercontent.com/sweNNN-svg/sap-ticket-router/main/docs/demo_rendered.svg)
 
 ## Why Three Layers?
 

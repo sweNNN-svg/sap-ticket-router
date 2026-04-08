@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 888 257" width="888" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="111" rows="15"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 39604ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+0.008%{transform:translateY(-272px)}
+0.487%{transform:translateY(-544px)}
+17.375%{transform:translateY(-816px)}
+19.591%{transform:translateY(-1088px)}
+24.977%{transform:translateY(-1360px)}
+25.692%{transform:translateY(-1632px)}
+34.416%{transform:translateY(-1904px)}
+36.309%{transform:translateY(-2176px)}
+42.119%{transform:translateY(-2448px)}
+47.334%{transform:translateY(-2720px)}
+48.114%{transform:translateY(-2992px)}
+51.300%{transform:translateY(-3264px)}
+60.428%{transform:translateY(-3536px)}
+64.382%{transform:translateY(-3808px)}
+73.442%{transform:translateY(-4080px)}
+74.144%{transform:translateY(-4352px)}
+90.304%{transform:translateY(-4624px)}
+90.685%{transform:translateY(-4896px)}
+91.031%{transform:translateY(-5168px)}
+97.475%{transform:translateY(-5440px)}
+100.000%{transform:translateY(-5440px)}
+            }
+
+            #screen_view {
+                animation-duration: 39604ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="888" height="255" viewBox="0 0 888 255" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="168" class="foreground">Hello from the shell!</text></g><g id="g2"><text x="0" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="304" class="foreground">Sistemin &#231;al&#305;&#351;ma s&#252;resi: up 46 minutes</text></g><g id="g4"><text x="0" textLength="168" font-weight="bold" class="color10">haci@mylittlecloudbox</text><text x="168" textLength="8" class="foreground">:</text><text x="176" textLength="152" font-weight="bold" class="color12">~/sap-ticket-router</text><text x="328" textLength="16" class="foreground">$ </text><text x="344" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="168" font-weight="bold" class="color10">haci@mylittlecloudbox</text><text x="168" textLength="8" class="foreground">:</text><text x="176" textLength="152" font-weight="bold" class="color12">~/sap-ticket-router</text><text x="328" textLength="16" class="foreground">$ </text><text x="344" textLength="312" class="background">python main.py "yetki hatas&#305; al&#305;yorum" </text></g><g id="g6"><text x="0" textLength="168" font-weight="bold" class="color10">haci@mylittlecloudbox</text><text x="168" textLength="8" class="foreground">:</text><text x="176" textLength="152" font-weight="bold" class="color12">~/sap-ticket-router</text><text x="328" textLength="320" class="foreground">$ python main.py "yetki hatas&#305; al&#305;yorum"</text></g><g id="g7"><text x="0" textLength="888" class="foreground">{'method': 'rule_override', 'tcode': 'YETKI', 'module': 'Authorization', 'confidence': '100%', 'message': 'Eri&#351;</text></g><g id="g8"><text x="0" textLength="240" class="foreground">im i&#351;lemleri yetkiyle ilgili'}</text></g><g id="g9"><text x="0" textLength="168" font-weight="bold" class="color10">haci@mylittlecloudbox</text><text x="168" textLength="8" class="foreground">:</text><text x="176" textLength="152" font-weight="bold" class="color12">~/sap-ticket-router</text><text x="328" textLength="16" class="foreground">$ </text></g><g id="g10"><text x="0" textLength="168" font-weight="bold" class="color10">haci@mylittlecloudbox</text><text x="168" textLength="8" class="foreground">:</text><text x="176" textLength="152" font-weight="bold" class="color12">~/sap-ticket-router</text><text x="328" textLength="16" class="foreground">$ </text><text x="344" textLength="352" class="background">python main.py "fatura kesiminde sorun var" </text></g><g id="g11"><text x="0" textLength="168" font-weight="bold" class="color10">haci@mylittlecloudbox</text><text x="168" textLength="8" class="foreground">:</text><text x="176" textLength="152" font-weight="bold" class="color12">~/sap-ticket-router</text><text x="328" textLength="360" class="foreground">$ python main.py "fatura kesiminde sorun var"</text></g><g id="g12"><text x="0" textLength="888" class="foreground">{'method': 'tfidf', 'tcode': None, 'module': 'E-solutions', 'confidence': '82.25%', 'message': 'TF-IDF tahmini:</text></g><g id="g13"><text x="0" textLength="184" class="foreground"> E-solutions (82.25%)'}</text></g><g id="g14"><text x="0" textLength="168" font-weight="bold" class="color10">haci@mylittlecloudbox</text><text x="168" textLength="8" class="foreground">:</text><text x="176" textLength="152" font-weight="bold" class="color12">~/sap-ticket-router</text><text x="328" textLength="16" class="foreground">$ </text><text x="344" textLength="472" class="background">python main.py "malzeme hareketi s&#305;ras&#305;nda sistem donuyor" </text></g><g id="g15"><text x="0" textLength="168" font-weight="bold" class="color10">haci@mylittlecloudbox</text><text x="168" textLength="8" class="foreground">:</text><text x="176" textLength="152" font-weight="bold" class="color12">~/sap-ticket-router</text><text x="328" textLength="480" class="foreground">$ python main.py "malzeme hareketi s&#305;ras&#305;nda sistem donuyor"</text></g><g id="g16"><text x="0" textLength="888" class="foreground">{'method': 'llm', 'tcode': None, 'module': 'MM', 'confidence': 'high', 'message': 'The ticket is in Turkish and</text></g><g id="g17"><text x="0" textLength="888" class="foreground"> describes a system freeze during material movement (malzeme hareketi), which is a Materials Management (MM) op</text></g><g id="g18"><text x="0" textLength="80" class="foreground">eration.'}</text></g><g id="g19"><text x="0" textLength="32" class="foreground">exit</text></g></defs><g id="screen_view"><g><use xlink:href="#g1" y="0"/><rect x="0" y="34" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="34"/></g><g><use xlink:href="#g1" y="272"/><use xlink:href="#g3" y="306"/><rect x="0" y="340" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="340"/></g><g><use xlink:href="#g1" y="544"/><use xlink:href="#g3" y="578"/><rect x="344" y="612" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="612"/></g><g><use xlink:href="#g1" y="816"/><use xlink:href="#g3" y="850"/><rect x="344" y="884" width="312" height="17" class="foreground"/><use xlink:href="#g5" y="884"/></g><g><use xlink:href="#g1" y="1088"/><use xlink:href="#g3" y="1122"/><use xlink:href="#g6" y="1156"/><rect x="0" y="1173" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="1173"/></g><g><use xlink:href="#g1" y="1360"/><use xlink:href="#g3" y="1394"/><use xlink:href="#g6" y="1428"/><use xlink:href="#g7" y="1445"/><use xlink:href="#g8" y="1462"/><rect x="0" y="1479" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="1479"/></g><g><use xlink:href="#g1" y="1632"/><use xlink:href="#g3" y="1666"/><use xlink:href="#g6" y="1700"/><use xlink:href="#g7" y="1717"/><use xlink:href="#g8" y="1734"/><rect x="344" y="1751" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="1751"/></g><g><use xlink:href="#g1" y="1904"/><use xlink:href="#g3" y="1938"/><use xlink:href="#g6" y="1972"/><use xlink:href="#g7" y="1989"/><use xlink:href="#g8" y="2006"/><use xlink:href="#g9" y="2023"/><rect x="344" y="2040" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="2040"/></g><g><use xlink:href="#g1" y="2176"/><use xlink:href="#g3" y="2210"/><use xlink:href="#g6" y="2244"/><use xlink:href="#g7" y="2261"/><use xlink:href="#g8" y="2278"/><use xlink:href="#g9" y="2295"/><rect x="344" y="2312" width="352" height="17" class="foreground"/><use xlink:href="#g10" y="2312"/></g><g><use xlink:href="#g1" y="2448"/><use xlink:href="#g3" y="2482"/><use xlink:href="#g6" y="2516"/><use xlink:href="#g7" y="2533"/><use xlink:href="#g8" y="2550"/><use xlink:href="#g9" y="2567"/><use xlink:href="#g11" y="2584"/><rect x="0" y="2601" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="2601"/></g><g><use xlink:href="#g1" y="2720"/><use xlink:href="#g3" y="2754"/><use xlink:href="#g6" y="2788"/><use xlink:href="#g7" y="2805"/><use xlink:href="#g8" y="2822"/><use xlink:href="#g9" y="2839"/><use xlink:href="#g11" y="2856"/><use xlink:href="#g12" y="2873"/><use xlink:href="#g13" y="2890"/><rect x="0" y="2907" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="2907"/></g><g><use xlink:href="#g1" y="2992"/><use xlink:href="#g3" y="3026"/><use xlink:href="#g6" y="3060"/><use xlink:href="#g7" y="3077"/><use xlink:href="#g8" y="3094"/><use xlink:href="#g9" y="3111"/><use xlink:href="#g11" y="3128"/><use xlink:href="#g12" y="3145"/><use xlink:href="#g13" y="3162"/><rect x="344" y="3179" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="3179"/></g><g><use xlink:href="#g1" y="3264"/><use xlink:href="#g3" y="3298"/><use xlink:href="#g6" y="3332"/><use xlink:href="#g7" y="3349"/><use xlink:href="#g8" y="3366"/><use xlink:href="#g9" y="3383"/><use xlink:href="#g11" y="3400"/><use xlink:href="#g12" y="3417"/><use xlink:href="#g13" y="3434"/><use xlink:href="#g9" y="3451"/><rect x="344" y="3468" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="3468"/></g><g><use xlink:href="#g1" y="3536"/><use xlink:href="#g3" y="3570"/><use xlink:href="#g6" y="3604"/><use xlink:href="#g7" y="3621"/><use xlink:href="#g8" y="3638"/><use xlink:href="#g9" y="3655"/><use xlink:href="#g11" y="3672"/><use xlink:href="#g12" y="3689"/><use xlink:href="#g13" y="3706"/><use xlink:href="#g9" y="3723"/><rect x="344" y="3740" width="472" height="17" class="foreground"/><use xlink:href="#g14" y="3740"/></g><g><use xlink:href="#g1" y="3808"/><use xlink:href="#g3" y="3842"/><use xlink:href="#g6" y="3876"/><use xlink:href="#g7" y="3893"/><use xlink:href="#g8" y="3910"/><use xlink:href="#g9" y="3927"/><use xlink:href="#g11" y="3944"/><use xlink:href="#g12" y="3961"/><use xlink:href="#g13" y="3978"/><use xlink:href="#g9" y="3995"/><use xlink:href="#g15" y="4012"/><rect x="0" y="4029" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="4029"/></g><g><use xlink:href="#g3" y="4080"/><use xlink:href="#g6" y="4114"/><use xlink:href="#g7" y="4131"/><use xlink:href="#g8" y="4148"/><use xlink:href="#g9" y="4165"/><use xlink:href="#g11" y="4182"/><use xlink:href="#g12" y="4199"/><use xlink:href="#g13" y="4216"/><use xlink:href="#g9" y="4233"/><use xlink:href="#g15" y="4250"/><use xlink:href="#g16" y="4267"/><use xlink:href="#g17" y="4284"/><use xlink:href="#g18" y="4301"/><rect x="0" y="4318" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="4318"/></g><g><use xlink:href="#g3" y="4352"/><use xlink:href="#g6" y="4386"/><use xlink:href="#g7" y="4403"/><use xlink:href="#g8" y="4420"/><use xlink:href="#g9" y="4437"/><use xlink:href="#g11" y="4454"/><use xlink:href="#g12" y="4471"/><use xlink:href="#g13" y="4488"/><use xlink:href="#g9" y="4505"/><use xlink:href="#g15" y="4522"/><use xlink:href="#g16" y="4539"/><use xlink:href="#g17" y="4556"/><use xlink:href="#g18" y="4573"/><rect x="344" y="4590" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="4590"/></g><g><use xlink:href="#g6" y="4641"/><use xlink:href="#g7" y="4658"/><use xlink:href="#g8" y="4675"/><use xlink:href="#g9" y="4692"/><use xlink:href="#g11" y="4709"/><use xlink:href="#g12" y="4726"/><use xlink:href="#g13" y="4743"/><use xlink:href="#g9" y="4760"/><use xlink:href="#g15" y="4777"/><use xlink:href="#g16" y="4794"/><use xlink:href="#g17" y="4811"/><use xlink:href="#g18" y="4828"/><use xlink:href="#g9" y="4845"/><rect x="344" y="4862" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="4862"/></g><g><use xlink:href="#g6" y="4896"/><use xlink:href="#g7" y="4913"/><use xlink:href="#g8" y="4930"/><use xlink:href="#g9" y="4947"/><use xlink:href="#g11" y="4964"/><use xlink:href="#g12" y="4981"/><use xlink:href="#g13" y="4998"/><use xlink:href="#g9" y="5015"/><use xlink:href="#g15" y="5032"/><use xlink:href="#g16" y="5049"/><use xlink:href="#g17" y="5066"/><use xlink:href="#g18" y="5083"/><use xlink:href="#g9" y="5100"/><use xlink:href="#g9" y="5117"/><rect x="344" y="5134" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="5134"/></g><g><use xlink:href="#g7" y="5168"/><use xlink:href="#g8" y="5185"/><use xlink:href="#g9" y="5202"/><use xlink:href="#g11" y="5219"/><use xlink:href="#g12" y="5236"/><use xlink:href="#g13" y="5253"/><use xlink:href="#g9" y="5270"/><use xlink:href="#g15" y="5287"/><use xlink:href="#g16" y="5304"/><use xlink:href="#g17" y="5321"/><use xlink:href="#g18" y="5338"/><use xlink:href="#g9" y="5355"/><use xlink:href="#g9" y="5372"/><use xlink:href="#g9" y="5389"/><rect x="344" y="5406" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="5406"/></g><g><use xlink:href="#g9" y="5440"/><use xlink:href="#g11" y="5457"/><use xlink:href="#g12" y="5474"/><use xlink:href="#g13" y="5491"/><use xlink:href="#g9" y="5508"/><use xlink:href="#g15" y="5525"/><use xlink:href="#g16" y="5542"/><use xlink:href="#g17" y="5559"/><use xlink:href="#g18" y="5576"/><use xlink:href="#g9" y="5593"/><use xlink:href="#g9" y="5610"/><use xlink:href="#g9" y="5627"/><use xlink:href="#g9" y="5644"/><use xlink:href="#g19" y="5661"/><rect x="0" y="5678" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="5678"/></g></g></svg>
+</svg>

@@ -16,7 +16,7 @@ Layer 3: LLM Fallback (Claude Haiku) → returns module + reasoning
 {"module": "MM", "confidence": "high", "reason": "..."}
 ```
 
-[![asciicast](https://asciinema.org/a/KaJ8C6AVsK0Cev4J.svg)](https://asciinema.org/a/KaJ8C6AVsK0Cev4J)
+![Demo](docs/demo.gif)
 
 ## Why Three Layers?
 

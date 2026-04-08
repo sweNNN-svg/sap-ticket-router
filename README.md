@@ -26,7 +26,7 @@ Layer 3: LLM Fallback (Claude Haiku) → returns module + reasoning
 
 ## Example
 
-\```bash
+```bash
 $ python main.py "yetki hatası alıyorum"
 {'method': 'rule_override', 'module': 'Authorization', 'confidence': '100%'}
 
@@ -35,7 +35,7 @@ $ python main.py "fatura kesiminde sorun var"
 
 $ python main.py "malzeme hareketi sırasında sistem donuyor"
 {'method': 'llm', 'module': 'MM', 'confidence': 'high'}
-\```
+```
 
 ## Supported Modules
 

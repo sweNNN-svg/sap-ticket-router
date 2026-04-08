@@ -26,16 +26,16 @@ Layer 3: LLM Fallback (Claude Haiku) → returns module + reasoning
 
 ## Example
 
-```bash
+\```bash
 $ python main.py "yetki hatası alıyorum"
 {'method': 'rule_override', 'module': 'Authorization', 'confidence': '100%'}
 
 $ python main.py "fatura kesiminde sorun var"
-{'method': 'tfidf', 'module': 'FICO', 'confidence': '82.25%'}
+{'method': 'tfidf', 'module': 'E-solutions', 'confidence': '82.25%'}
 
 $ python main.py "malzeme hareketi sırasında sistem donuyor"
 {'method': 'llm', 'module': 'MM', 'confidence': 'high'}
-```
+\```
 
 ## Supported Modules
 
@@ -70,8 +70,8 @@ LLM handles ambiguous tickets with reasoning — only when necessary.
 
 ## Roadmap
 
-- [ ] **v1.1 — LangSmith Tracing** — her kararın trace'i, latency ve maliyet takibi
-- [ ] **v1.2 — FastAPI endpoint** — CLI yerine HTTP API, `POST /predict` → JSON
-- [ ] **v1.3 — Streamlit arayüz** — ticket gir, hangi katmandan döndüğünü gör
-- [ ] **v1.4 — RAGAS eval** — LLM kararlarının tutarlılık raporu
-- [ ] **v1.5 — Jira / Teams entegrasyonu** — ticket direkt ilgili ekibe atanıyor
+- [ ] **v1.1 — LangSmith Tracing** — trace every decision, track latency and cost
+- [ ] **v1.2 — FastAPI endpoint** — HTTP API instead of CLI, `POST /predict` → JSON
+- [ ] **v1.3 — Streamlit UI** — enter ticket, see which layer responded
+- [ ] **v1.4 — RAGAS eval** — consistency report for LLM decisions
+- [ ] **v1.5 — Jira / Teams integration** — auto-assign ticket to the right team

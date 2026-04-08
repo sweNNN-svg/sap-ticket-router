@@ -66,3 +66,12 @@ python main.py "ticket text here"
 Built from real-world experience managing 250+ SAP BW/4HANA process chains.
 Rule engine handles high-confidence cases instantly. TF-IDF covers familiar patterns.
 LLM handles ambiguous tickets with reasoning — only when necessary.
+
+
+## Roadmap
+
+- [ ] **v1.1 — LangSmith Tracing** — her kararın trace'i, latency ve maliyet takibi
+- [ ] **v1.2 — FastAPI endpoint** — CLI yerine HTTP API, `POST /predict` → JSON
+- [ ] **v1.3 — Streamlit arayüz** — ticket gir, hangi katmandan döndüğünü gör
+- [ ] **v1.4 — RAGAS eval** — LLM kararlarının tutarlılık raporu
+- [ ] **v1.5 — Jira / Teams entegrasyonu** — ticket direkt ilgili ekibe atanıyor

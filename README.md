@@ -3,17 +3,20 @@
 Hybrid SAP support ticket classification using a three-layer decision system.
 
 ## How It Works
-Ticket Input
-↓
-Layer 1: Rule Engine (TCODE match + keyword rules) → 100% confidence, no API call
-↓ no match
-Layer 2: TF-IDF Model → fast, offline, no API call
-↓ low confidence
-Layer 3: LLM Fallback (Claude Haiku) → returns module + reasoning
-↓
-{"module": "MM", "confidence": "high", "reason": "..."}
 
-![Demo](docs/demo.svg)
+```
+Ticket Input
+     ↓
+Layer 1: Rule Engine (TCODE match + keyword rules) → 100% confidence, no API call
+     ↓ no match
+Layer 2: TF-IDF Model → fast, offline, no API call
+     ↓ low confidence
+Layer 3: LLM Fallback (Claude Haiku) → returns module + reasoning
+     ↓
+{"module": "MM", "confidence": "high", "reason": "..."}
+```
+
+![Demo](https://raw.githubusercontent.com/sweNNN-svg/sap-ticket-router/main/docs/demo.svg)
 
 ## Why Three Layers?
 
@@ -53,7 +56,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# .env dosyası oluştur
 echo "ANTHROPIC_API_KEY=your_key" > .env
 
 python main.py "ticket text here"

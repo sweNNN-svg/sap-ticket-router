@@ -13,6 +13,8 @@ Layer 3: LLM Fallback (Claude Haiku) → returns module + reasoning
 ↓
 {"module": "MM", "confidence": "high", "reason": "..."}
 
+![Demo](https://raw.githubusercontent.com/sweNNN-svg/sap-ticket-router/main/docs/demo.svg)
+
 ## Why Three Layers?
 
 - **Rule Engine:** Zero latency, zero cost. Known TCODEs and keywords are routed instantly.

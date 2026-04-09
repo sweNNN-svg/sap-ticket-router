@@ -30,16 +30,10 @@ def llm_tahmin(ticket):
         messages=[
             {
                 "role": "user",
-                "content": (
-                    "You are an SAP support ticket routing expert.\n"
-                    "Classify this ticket into one SAP module: "
-                    "FI, CO, MM, SD, HR, PM, QM, PP, Authorization, E-Solutions, Basis\n\n"
-                    f"Ticket: {ticket}\n\n"
-                    "Respond with raw JSON only, no markdown:\n"
-                    '{"module": "MODULE_NAME", "confidence": "high/medium/low", "reason": "one sentence"}'
-                ),
+                "content": (f"Ticket: {ticket}\n\n"),
             }
         ],
+        system='You are an SAP support ticket routing expert. Classify this ticket into one SAP module:\'FI, CO, MM, SD, HR, PM, QM, PP, Authorization, E-Solutions, Basis\n\n\'. Respond with raw JSON only, no markdown: {"module": "MODULE_NAME", "confidence": "high/medium/low", "reason": "one sentence"}',
     )
 
     block = response.content[0]

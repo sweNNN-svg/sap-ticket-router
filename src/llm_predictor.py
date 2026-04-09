@@ -27,6 +27,7 @@ def llm_tahmin(ticket):
     response = client.messages.create(
         model="claude-haiku-4-5",
         max_tokens=200,
+        temperature=0.1,
         messages=[
             {
                 "role": "user",

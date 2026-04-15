@@ -61,6 +61,21 @@ echo "ANTHROPIC_API_KEY=your_key" > .env
 python main.py "ticket text here"
 ```
 
+## Tests
+
+```bash
+python -m unittest discover -s tests -p "test_*.py"
+```
+
+## Windows Encoding Note
+
+If Turkish characters look broken in Windows terminal output, run:
+
+```powershell
+$env:PYTHONIOENCODING="utf-8"
+python main.py "ticket text here"
+```
+
 ## Background
 
 Built from real-world experience managing 250+ SAP BW/4HANA process chains.

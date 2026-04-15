@@ -1,6 +1,7 @@
 import warnings
 
 import joblib
+from src.response_utils import tahmin_cevabi_olustur
 
 warnings.filterwarnings("ignore")
 
@@ -19,10 +20,10 @@ def tfidf_tahmin(ticket, model, threshold=0.6):
         # düşük confidence, LLM'e git
         return None
 
-    return {
-        "method": "tfidf",
-        "tcode": None,
-        "module": tahmin,
-        "confidence": f"{confidence:.2%}",
-        "message": f"TF-IDF tahmini: {tahmin} ({confidence:.2%})",
-    }
+    return tahmin_cevabi_olustur(
+        method="tfidf",
+        tcode=None,
+        module=tahmin,
+        confidence=f"{confidence:.2%}",
+        message=f"TF-IDF tahmini: {tahmin} ({confidence:.2%})",
+    )

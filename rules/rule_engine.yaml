@@ -1,17 +1,32 @@
 overrides:
-    - condition: "tcode.startswith('ZI')"
+    - match:
+          field: tcode
+          operator: startswith
+          value: "ZI"
       assign_to: MM
       reason: "FI danışmanının yönlendirmesi"
 
-    - condition: "title.lower().find('yetki') != -1"
+    - match:
+          field: title
+          operator: contains
+          value: "yetki"
+          case_sensitive: false
       assign_to: Authorization
       reason: "Erişim işlemleri yetkiyle ilgili"
 
-    - condition: "title.lower().find('workflow') != -1"
+    - match:
+          field: title
+          operator: contains
+          value: "workflow"
+          case_sensitive: false
       assign_to: E-Solutions
       reason: "Workflow işlemleri E-Solutions tarafından yürütülür"
 
-    - condition: "'#SanctionTrace' in title"
+    - match:
+          field: title
+          operator: contains
+          value: "#SanctionTrace"
+          case_sensitive: false
       assign_to: SD
       reason: "#SanctionTrace görevi SD modülüne aittir"
 

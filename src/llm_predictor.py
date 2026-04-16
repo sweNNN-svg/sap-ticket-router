@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Emre Hacımustafaoğlu. All rights reserved.
+# Proprietary software. Use, modification, and distribution require explicit written permission.
 import json
 
 from anthropic import Anthropic

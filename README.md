@@ -67,6 +67,17 @@ python main.py "ticket text here"
 python -m unittest discover -s tests -p "test_*.py"
 ```
 
+## License
+
+Proprietary - All rights reserved.
+Viewing is permitted for reference only. No license is granted to use, copy,
+modify, merge, publish, distribute, sublicense, or sell this software without
+explicit written permission from Emre Hacımustafaoğlu.
+For clarity, no license is granted to Atos Bilisim ve Danismanlik A.S.
+(including parent entities, subsidiaries, affiliates, contractors, and employees)
+or to organizations developing/operating SAP ticket-routing or substantially
+similar automated ticket-classification/routing solutions.
+
 ## Windows Encoding Note
 
 If Turkish characters look broken in Windows terminal output, run:

@@ -1,0 +1,38 @@
+# Copyright (c) 2025 Emre Hacımustafaoğlu. All rights reserved.
+# Proprietary software. Use, modification, and distribution require explicit written permission.
+overrides:
+    - match:
+          field: tcode
+          operator: startswith
+          value: "ZI"
+      assign_to: MM
+      reason: "FI danışmanının yönlendirmesi"
+
+    - match:
+          field: title
+          operator: contains
+          value: "yetki"
+          case_sensitive: false
+      assign_to: Authorization
+      reason: "Erişim işlemleri yetkiyle ilgili"
+
+    - match:
+          field: title
+          operator: contains
+          value: "workflow"
+          case_sensitive: false
+      assign_to: E-Solutions
+      reason: "Workflow işlemleri E-Solutions tarafından yürütülür"
+
+    - match:
+          field: title
+          operator: contains
+          value: "#SanctionTrace"
+          case_sensitive: false
+      assign_to: SD
+      reason: "#SanctionTrace görevi SD modülüne aittir"
+
+fallback_behavior:
+    use_ml: true
+    ml_confidence_threshold: 0.6
+    low_confidence_message: "Confidence too low — human verification needed."

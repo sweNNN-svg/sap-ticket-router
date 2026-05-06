@@ -1,0 +1,8 @@
+models/ticket_module_predictor.pkl
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+agg-x86_64-unknown-linux-gnu

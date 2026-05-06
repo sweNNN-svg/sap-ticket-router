@@ -1,0 +1,6 @@
+anthropic==0.40.0
+pandas==2.3.3
+PyYAML==6.0.3
+joblib==1.5.3
+scikit-learn==1.8.0
+python-dotenv==1.0.1
